@@ -1,0 +1,39 @@
+body{
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fora{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 500px;
+}
+
+label {
+    display: flex;
+    margin: 2px;
+}
+
+input{
+    
+}
+
+.dentro{
+    padding: 30px;
+    padding-right: 400px;
+    border: 1px solid #882323;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+}
+
+.enviar {
+    margin-top: 40px;
+    align-items: center;
+}
