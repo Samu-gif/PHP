@@ -9,8 +9,8 @@
 <body>
     <div class="fora">
         <form method="post" name="cliente" action="mostrar.php">
-            <h2>Cadastro</h2>
             <div class="dentro">
+            <h2>Cadastro</h2>
                 <label>Nome da Empresa</label>
                 <input type="text" name="nome" maxlength="150" placeholder="Empresa" required>
 
@@ -45,6 +45,10 @@
                 <input class="enviar" type="submit" name="enviar" value="Enviar">
             </div>
         </form>
+        <div class="aolado">
+            <h2>Se registre</h2>
+            <p>Preencha o formulário abaixo com os dados solicitados para realizar seu cadastro no sistema. Certifique-se de que todas as informações estejam corretas e atualizadas, pois serão validadas posteriormente. Campos marcados com Rito são obrigatórios e devem ser preenchidos conforme as normas estabelecidas.</p>
+        </div>
     </div>
 </body>
 </html>
